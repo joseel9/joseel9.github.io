@@ -1,0 +1,144 @@
+/* Estilo General del Cuerpo */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url('/Estancias,Estadias/Imagen/Black and Red Minimalist Modern Registration Gym Website Prototype.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-link, .nav-btn {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 30px;
+    background-color: #a7250d;
+    transition: background-color 0.3s, opacity 0.3s;
+    margin-right: 20px; /* Mueve los elementos hacia la izquierda */
+}
+
+.nav-link:last-child, .nav-btn:last-child {
+    margin-right: 400px; /* Añade margen derecho solo al último elemento */
+}
+
+.nav-link:hover, .nav-btn:hover {
+    background-color: #d1ab6a;
+    opacity: 0.8;
+}
+
+.nav-link.home, .nav-link.sii, .nav-link.campus {
+    background-color: #a7250d;
+}
+
+.header, .footer {
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.header .logo {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.nav-buttons {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-buttons li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #a7250d;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgba(251, 249, 249, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    margin-left: 900px; /* Ajustar para mover hacia la izquierda */
+    margin-right: auto; /* Ajustar para centrar horizontalmente */
+    margin-top: -150px;
+}
+
+.registration-form {
+    margin-top: 20px;
+}
+
+.textbox {
+    position: relative;
+    margin-bottom: 30px; /* Aumentar el margen inferior para acomodar las etiquetas */
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Campos de texto más ovalados */
+    font-size: 16px;
+    background-color: #fff; /* Cambiar color de fondo a blanco */
+    color: #000; /* Color del texto */
+}
+
+.textbox label {
+    position: absolute;
+    left: 20px;
+    top: -20px; /* Ajustar la posición de la etiqueta */
+    background: #a7250d; /* Mismo color que el fondo del cuadro de inicio de sesión */
+    padding: 0 5px;
+    color: #fff; /* Color del texto de la etiqueta */
+    font-size: 14px; /* Tamaño de fuente de la etiqueta */
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffb366; /* Color carne */
+    color: #fff;
+    border: none;
+    border-radius: 30px; /* Botones de registro más ovalados */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff944d; /* Color carne más oscuro al pasar el mouse */
+}
+
+.link {
+    color: #fafafb;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Color blanco para el texto "¿Aún no tienes cuenta?" */
+.no-account {
+    color: #fff;
+}
